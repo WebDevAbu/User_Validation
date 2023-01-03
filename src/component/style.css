@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  background-color: brown;
+  padding: 13px 25px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  /* cursor: pointer; */
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #af5959;
+  color: white;
+}
+
+.adduser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* ADD USER */
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background-color: #f0e9e9;
+  width: 50vw;
+  padding: 20px;
+}
+
+.footer-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
